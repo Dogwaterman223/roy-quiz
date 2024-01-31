@@ -1,0 +1,15 @@
+def multiple_choice_question():
+    print("Is Toward the best mod")
+    print("A. Yes")
+    print("B. Yes")
+    
+    user_answer = input("Your answer (A/B): ").upper()
+
+    # Check if the answer is correct
+    if user_answer == 'A' or user_answer == 'B':
+        print("based and cool")
+    else:
+        print("based af")
+
+# Call the function to run the test
+multiple_choice_question()
