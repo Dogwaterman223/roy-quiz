@@ -1,0 +1,15 @@
+def multiple_choice_question():
+    print("Should robot join watch party?")
+    print("A. Yes")
+    print("B. no")
+    
+    user_answer = input("Your answer (A/B): ").upper()
+
+    # Check if the answer is correct
+    if user_answer == 'A' or user_answer == 'B':
+        print("based and cool")
+    else:
+        print("why not")
+
+# Call the function to run the test
+multiple_choice_question()
