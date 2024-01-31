@@ -37,9 +37,9 @@
             var resultElement = document.getElementById('result');
 
             if (choice === '2') {
-                resultElement.textContent = "You chose Option 1 - Roy is a fucking bitch";
+                resultElement.textContent = "You chose Option 1 - you arebased and cool";
             } else if (choice === '3') {
-                resultElement.textContent = "You chose Option 2 - Roy is a good mod";
+                resultElement.textContent = "You chose Option 2 - you are roy or roy meatrider";
             } else {
                 resultElement.textContent = "Invalid choice. Please enter 2 or 3.";
             }
